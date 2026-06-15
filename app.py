@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.title("🎵 Spain Top 50 Spotify Analysis Dashboard")
 
-df = pd.read_csv(r"C:\Users\SWATI\Desktop\Atlantic_Spain.csv")
+df = pd.read_csv("Atlantic_Spain.csv")
 
 st.subheader("Dataset Preview")
 st.dataframe(df.head())
